@@ -1,0 +1,9 @@
+name: clinical_tokenizer
+channels:
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.10
+  - conda-forge::tensorflow-gpu>=2.8.0
+  - cudatoolkit=11.3
+  - conda-forge::spacy>=3.3.0
